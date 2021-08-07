@@ -1,11 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const FullName = () => (
-  <h4 className="name">
-    NOM:Laib
-    <br />
-    PRENOM:khadidja
-  </h4>
-);
+function FullName(props) {
+  return <h1> {props.fullName}</h1>;
+}
+
 export default FullName;

@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import imagge from "../../../photo.jpg";
 
-const ProfilePhoto = () => (
+const ProfilePhoto = (props) => (
   <h1>
-    <img src={imagge} className="photo" />
+    <img onClick={props.adam} src={imagge} className="photo" alt="" />
   </h1>
 );
 
