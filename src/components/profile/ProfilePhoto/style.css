@@ -1,0 +1,7 @@
+.photo {
+  width: 200px;
+  border: solid pink;
+  border-width: 4px;
+  display: flex;
+  margin-left: 35%;
+}

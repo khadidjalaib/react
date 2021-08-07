@@ -1,0 +1,7 @@
+.adress {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+
+  display: flex;
+  margin-left: 40%;
+}
